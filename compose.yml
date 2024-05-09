@@ -60,7 +60,7 @@ services:
       - ./config/grafana/dashboards/netprobe.json:/var/lib/grafana/dashboards/netprobe.json
       - grafana_data:/var/lib/grafana
     ports:
-      - '3001:3000'
+      - '3002:3000'
     networks:
       - netprobe-net
       
